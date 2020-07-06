@@ -1,22 +1,26 @@
 import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
+
 :root {
-  --primary: #9AC1B0; 
+  --summergreen: #9AC1B0; 
   --background: #F6F8F7;
-  --color: #505255;
-  --grey: #979797;
+  --inputnandor: #505255;
+  --grey: #EEEFEF;
+  --placeholder: rgba(124, 128, 126, 70);
+  --accentfalcon: #876277;
 }
 
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
   height: 100vh;
   background-color: var(--background);
-  font-family: ${(props) => props.margin || 'Prompt'};
+  font-family: 'Prompt', sans-serif;
   font-size: 1rem;
-  color: var(--color);
+  color: var(--inputnandor);
 }
 `
