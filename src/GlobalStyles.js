@@ -5,10 +5,12 @@ export default createGlobalStyle`
 :root {
   --summergreen: #9AC1B0; 
   --background: #F6F8F7;
-  --inputnandor: #505255;
+  --nandor: #505255;
+  --input: var(--nandor);
   --grey: #EEEFEF;
   --placeholder: rgba(124, 128, 126, 70);
-  --accentfalcon: #876277;
+  --falcon: #876277;
+  --accent: var(--falcon);
 }
 
 * {
