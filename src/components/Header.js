@@ -13,6 +13,5 @@ const StyledHeader = styled.header`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
-  color: var(--primary);
+  color: var(--summergreen);
 `
