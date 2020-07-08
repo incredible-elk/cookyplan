@@ -1,28 +1,14 @@
-import React from 'react'
 import styled from 'styled-components'
 import { PropTypes } from 'prop-types'
 
-MealplanTitle.propTypes = {
-  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-}
-
-export default function MealplanTitle({ value }) {
-  return (
-    <label>
-      <TitleInput
-        type="text"
-        placeholder="Monday"
-        name="listTitle"
-        value={value}
-      />
-    </label>
-  )
-}
-
-const TitleInput = styled.input`
+const MealplanTitle = styled.input.attrs({
+  type: 'text',
+  placeholder: 'Monday',
+  name: 'listTitle',
+})`
   height: 30px;
-  width: 165px;
-  margin: 20px 0 10px 20px;
+  width: 80%;
+  margin: 20px 20px 10px 20px;
   padding: 5px;
   border: none;
   border-radius: 4px;
@@ -33,7 +19,6 @@ const TitleInput = styled.input`
 
   :focus {
     outline: 1px solid var(--summergreen);
-    border-radius: 8px;
   }
 
   :placeholder-shown {
@@ -42,3 +27,9 @@ const TitleInput = styled.input`
     font-size: 0.8rem;
   }
 `
+
+MealplanTitle.propTypes = {
+  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+}
+
+export default MealplanTitle
