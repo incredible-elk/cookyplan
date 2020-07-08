@@ -6,18 +6,13 @@ import imagePathCircle from '../images/circle.svg'
 export default function Checkbox({ checked, onChange }) {
   return (
     <label>
-      <HideCheckbox
-        onChange={onChange}
-        checked={checked}
-        type="checkbox"
-        name="checkbox"
-      />
+      <HiddenCheckbox onChange={onChange} checked={checked} name="checkbox" />
       <StyledCheckbox checked={checked} />
     </label>
   )
 }
 
-const HideCheckbox = styled.input.attrs({ type: 'checkbox' })`
+const HiddenCheckbox = styled.input.attrs({ type: 'checkbox' })`
   border: 0;
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -31,7 +26,6 @@ const HideCheckbox = styled.input.attrs({ type: 'checkbox' })`
 `
 
 const StyledCheckbox = styled.div`
-  margin-left: 20px;
   height: 24px;
   width: 24px;
   background: ${(props) =>
