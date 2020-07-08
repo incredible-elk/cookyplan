@@ -1,30 +1,14 @@
-import React from 'react'
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
 
-MealInput.propTypes = {
-  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-}
-
-export default function MealInput({ value }) {
-  return (
-    <>
-      <label>
-        <StyledMealInput
-          type="text"
-          placeholder="Rice with beans"
-          name="mealInput"
-          value={value}
-        />
-      </label>
-    </>
-  )
-}
-
-const StyledMealInput = styled.input`
+const MealInput = styled.input.attrs({
+  type: 'text',
+  placeholder: 'Rice with beans',
+  name: 'mealInput',
+})`
   height: 30px;
-  width: 240px;
-  margin: 10px 0 0 30px;
+  width: 70%;
+  margin-left: 10px;
   padding: 5px;
   background: none;
   border: none;
@@ -32,6 +16,7 @@ const StyledMealInput = styled.input`
   color: var(--placeholder);
   font-size: 1rem;
   font-family: 'Shadows Into Light Two';
+  text-decoration: ${(props) => (props.checked ? 'line-through' : 'none')};
 
   :focus {
     outline: 1px solid var(--summergreen);
@@ -42,3 +27,13 @@ const StyledMealInput = styled.input`
     font-size: 0.8rem;
   }
 `
+MealInput.propTypes = {
+  value: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
+    PropTypes.node,
+  ]),
+  onChange: PropTypes.func,
+}
+
+export default MealInput
