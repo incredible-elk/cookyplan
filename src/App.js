@@ -1,7 +1,6 @@
 import React from 'react'
-import Header from './components/Header'
-import Checkbox from './components/Checkbox'
 import styled from 'styled-components'
+import Header from './components/Header'
 import MealplanList from './components/MealplanList'
 
 function App() {
@@ -9,7 +8,7 @@ function App() {
     <AppGrid>
       <Header />
       <StyledMain>
-        <MealplanList />
+        <MealplanList mealplanList={{ title: '', items: [{}] }} />
       </StyledMain>
     </AppGrid>
   )
