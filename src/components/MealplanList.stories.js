@@ -8,8 +8,12 @@ export default {
   excludeStories: /.*Data$/,
 }
 
+const emptyMealplanListData = {
+  title: '',
+  items: [{ id: 'initial', item: '', done: false }],
+}
+
 export const mealplanListData = {
-  id: '1',
   title: 'Tuesday',
   items: [
     { id: '1', item: 'Burritos', done: true },
@@ -17,6 +21,9 @@ export const mealplanListData = {
   ],
 }
 
+export const Empty = () => (
+  <MealplanList mealplanList={{ ...emptyMealplanListData }} />
+)
 export const WithTwoItems = () => (
   <MealplanList mealplanList={{ ...mealplanListData }} />
 )

@@ -7,6 +7,14 @@ export default {
   title: 'MealplanListItem',
 }
 
+export const Empty = () => (
+  <MealplanListItem
+    onValueChange={action('value-change')}
+    onCheckedChange={action('checkbox-change')}
+    value=""
+  />
+)
+
 export const Unchecked = () => (
   <MealplanListItem
     onValueChange={action('value-change')}
