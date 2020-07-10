@@ -8,7 +8,12 @@ function App() {
     <AppGrid>
       <Header />
       <StyledMain>
-        <MealplanList mealplanList={{ title: '', items: [{}] }} />
+        <MealplanList
+          mealplanList={{
+            title: '',
+            items: [{ id: 'initial', item: '', done: false }],
+          }}
+        />
       </StyledMain>
     </AppGrid>
   )
