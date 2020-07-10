@@ -1,0 +1,9 @@
+{
+  "id": "1",
+  "title": "Tuesday",
+  "items": [
+    { "id": "1", "item": "Burritos", "done": true },
+    { "id": "2", "item": "vegan Schnitzel", "done": false },
+    { "id": "3", "item": "vegan Rib Eye Steak", "done": false }
+  ]
+}
