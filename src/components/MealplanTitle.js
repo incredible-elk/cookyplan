@@ -4,7 +4,7 @@ import { PropTypes } from 'prop-types'
 const MealplanTitle = styled.input.attrs({
   type: 'text',
   placeholder: 'Monday',
-  name: 'listTitle',
+  name: 'listtitle',
 })`
   height: 30px;
   width: 80%;
@@ -24,7 +24,7 @@ const MealplanTitle = styled.input.attrs({
   :placeholder-shown {
     background: var(--grey);
     font-family: inherit;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 `
 

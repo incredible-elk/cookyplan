@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 const MealInput = styled.input.attrs({
   type: 'text',
   placeholder: 'Rice with beans',
-  name: 'mealInput',
+  className: 'mealinput',
 })`
   height: 30px;
   width: 70%;
@@ -15,7 +15,7 @@ const MealInput = styled.input.attrs({
   border-bottom: solid 2px var(--summergreen);
   color: var(--placeholder);
   font-size: 1rem;
-  font-family: 'Shadows Into Light Two';
+  font-family: var(--user);
   text-decoration: ${(props) => (props.checked ? 'line-through' : 'none')};
 
   :focus {
@@ -27,6 +27,7 @@ const MealInput = styled.input.attrs({
     font-size: 0.8rem;
   }
 `
+
 MealInput.propTypes = {
   value: PropTypes.oneOfType([
     PropTypes.string,

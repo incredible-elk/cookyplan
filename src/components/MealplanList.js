@@ -90,13 +90,15 @@ export default function MealplanList({ mealplanList }) {
     <>
       <StyledMealplanList>
         <MealplanTitle
-          value={list.title}
+          name="listtitle"
           onChange={(event) => handleTitleChange(event.target.value)}
+          value={list.title}
         />
-        <ul>
+        <ul id="meals">
           {list.items.map((meal) => (
             <MealplanListItem
               checked={meal.done}
+              className="mealinput"
               key={meal.id}
               onCheckedChange={() => handleChange(meal)}
               onValueChange={(event) =>
@@ -107,7 +109,13 @@ export default function MealplanList({ mealplanList }) {
           ))}
         </ul>
       </StyledMealplanList>
-      <AddButton onClick={() => handleAddItemClick()}>Add item</AddButton>
+      <AddButton
+        data-testid="add-button"
+        name="addbutton"
+        onClick={() => handleAddItemClick()}
+      >
+        Add item
+      </AddButton>
     </>
   )
 }

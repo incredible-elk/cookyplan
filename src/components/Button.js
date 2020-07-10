@@ -11,8 +11,9 @@ const Button = styled.button`
   border: none;
   border-radius: 4px;
   text-align: center;
+  font-family: var(--app);
   font-size: 0.8rem;
-  color: var(--nandor);
+  color: var(--background);
 `
 
 export const AddButton = styled(Button)`
