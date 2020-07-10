@@ -11,6 +11,8 @@ export default createGlobalStyle`
   --placeholder: rgba(124, 128, 126, 70);
   --falcon: #876277;
   --accent: var(--falcon);
+  --app: 'Prompt', sans-serif;
+  --user: 'Shadows Into Light Two', cursive;
 }
 
 * {
@@ -22,7 +24,7 @@ export default createGlobalStyle`
 body {
   height: 100vh;
   background-color: var(--background);
-  font-family: 'Prompt', sans-serif;
+  font-family: var(--app);
   font-size: 1rem;
   color: var(--inputnandor);
 }
