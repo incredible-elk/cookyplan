@@ -3,7 +3,7 @@ import { PropTypes } from 'prop-types'
 
 const MealplanTitle = styled.input.attrs({
   type: 'text',
-  placeholder: 'Monday',
+  placeholder: 'e.g. "Monday", "Dinner"',
   name: 'listtitle',
 })`
   height: 30px;
@@ -14,11 +14,16 @@ const MealplanTitle = styled.input.attrs({
   border-radius: 4px;
   background: none;
   color: var(--placeholder);
-  font-size: 1.2rem;
-  font-family: 'Shadows Into Light Two';
+  font-size: 1.4rem;
+  font-family: var(--user);
 
   :focus {
     outline: 1px solid var(--summergreen);
+  }
+
+  /* Placeholder color was displayed a lot darker in Chrome than in the other Browsers */
+  ::-webkit-input-placeholder {
+    color: #a3a8a5;
   }
 
   :placeholder-shown {

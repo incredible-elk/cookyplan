@@ -12,7 +12,7 @@ const Button = styled.button`
   border-radius: 4px;
   text-align: center;
   font-family: var(--app);
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: var(--background);
 `
 
@@ -22,6 +22,10 @@ export const AddButton = styled(Button)`
   color: var(--summergreen);
   text-align: start;
   padding-left: 36px;
+
+  :focus {
+    outline: 1px var(--background) solid;
+  }
 `
 
 export default Button

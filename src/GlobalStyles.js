@@ -8,7 +8,7 @@ export default createGlobalStyle`
   --nandor: #505255;
   --input: var(--nandor);
   --grey: #EEEFEF;
-  --placeholder: rgba(124, 128, 126, 70);
+  --placeholder: #7c807e; /* --nandor at 70% opacity */ 
   --falcon: #876277;
   --accent: var(--falcon);
   --app: 'Prompt', sans-serif;
@@ -25,7 +25,7 @@ body {
   height: 100vh;
   background-color: var(--background);
   font-family: var(--app);
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: var(--inputnandor);
 }
 `

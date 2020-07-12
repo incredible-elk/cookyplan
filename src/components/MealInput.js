@@ -2,9 +2,9 @@ import styled from 'styled-components'
 import PropTypes from 'prop-types'
 
 const MealInput = styled.input.attrs({
-  type: 'text',
-  placeholder: 'Rice with beans',
   className: 'mealinput',
+  placeholder: 'e.g. "Rice with beans"',
+  type: 'text',
 })`
   height: 30px;
   width: 70%;
@@ -14,17 +14,22 @@ const MealInput = styled.input.attrs({
   border: none;
   border-bottom: solid 2px var(--summergreen);
   color: var(--placeholder);
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: var(--user);
   text-decoration: ${(props) => (props.checked ? 'line-through' : 'none')};
 
-  :focus {
-    outline: 1px solid var(--summergreen);
+  /* Placeholder color was displayed a lot darker in Chrome than in the other Browsers */
+  ::-webkit-input-placeholder {
+    color: #a3a8a5;
   }
 
   :placeholder-shown {
     font-family: inherit;
-    font-size: 0.8rem;
+    font-size: 1rem;
+  }
+
+  :focus {
+    outline: 1px solid var(--summergreen);
   }
 `
 
