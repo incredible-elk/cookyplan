@@ -7,7 +7,7 @@ const Button = styled.button`
   width: 75%;
   height: 30px;
   background: var(--summergreen);
-  opacity: 80%;
+  opacity: 90%;
   border: none;
   border-radius: 4px;
   text-align: center;
