@@ -1,10 +1,11 @@
-import React, { useReducer } from 'react'
+import React, { useReducer, useEffect } from 'react'
 import styled from 'styled-components'
 import { v4 as uuidv4 } from 'uuid'
 
 import MealplanListItem from './MealplanListItem'
 import MealplanTitle from './MealplanTitle'
 import { AddButton } from './Button'
+import insertAfter from '../utils/insertAfter'
 
 const mealReducer = (state, action) => {
   switch (action.type) {
@@ -50,6 +51,19 @@ const mealReducer = (state, action) => {
         items: [...state.items, { id: uuidv4(), item: '', done: false }],
       }
 
+    case 'CREATE_MEAL_AFTER':
+      const index = state.items.findIndex((meal) => {
+        return meal.id === action.id
+      })
+      return {
+        ...state,
+        items: insertAfter(state.items, index, {
+          id: uuidv4(),
+          item: '',
+          done: false,
+        }),
+      }
+
     default:
       return state
   }
@@ -58,7 +72,7 @@ const mealReducer = (state, action) => {
 export default function MealplanList({ mealplanList }) {
   const [list, dispatch] = useReducer(mealReducer, mealplanList)
 
-  const handleChange = (meal) => {
+  const handleCheckChange = (meal) => {
     dispatch({
       type: meal.done ? 'UNDO_MEAL' : 'DO_MEAL',
       id: meal.id,
@@ -86,6 +100,13 @@ export default function MealplanList({ mealplanList }) {
     })
   }
 
+  const handleKeyDownEnter = (meal) => {
+    dispatch({
+      type: 'CREATE_MEAL_AFTER',
+      id: meal.id,
+    })
+  }
+
   return (
     <>
       <StyledMealplanList>
@@ -100,7 +121,8 @@ export default function MealplanList({ mealplanList }) {
               checked={meal.done}
               className="mealinput"
               key={meal.id}
-              onCheckedChange={() => handleChange(meal)}
+              onCheckedChange={() => handleCheckChange(meal)}
+              onKeyDownEnter={() => handleKeyDownEnter(meal)}
               onValueChange={(event) =>
                 handleInputChange(meal, event.target.value)
               }

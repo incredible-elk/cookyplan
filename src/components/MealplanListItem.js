@@ -6,9 +6,16 @@ import styled from 'styled-components'
 export default function MealplanListItem({
   checked,
   onCheckedChange,
+  onKeyDownEnter,
   onValueChange,
   value,
 }) {
+  const handleKeyDown = (event) => {
+    if (event.key === 'Enter') {
+      onKeyDownEnter()
+    }
+  }
+
   return (
     <StyledMealplanListItem>
       <Checkbox checked={checked} onChange={onCheckedChange} />
@@ -16,6 +23,7 @@ export default function MealplanListItem({
         checked={checked}
         className="mealinput"
         onChange={onValueChange}
+        onKeyDown={handleKeyDown}
         value={value}
       />
     </StyledMealplanListItem>
