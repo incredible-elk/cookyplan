@@ -1,6 +1,7 @@
 describe('MealplanList', () => {
   it('allows changing the title', () => {
     cy.visit('/');
+
     cy.get('[name="listtitle"]').type('Tuesday');
     cy.get('[name="listtitle"]').should('have.value', 'Tuesday');
 
@@ -10,6 +11,7 @@ describe('MealplanList', () => {
 
   it('allows to add meals', () => {
     cy.visit('/');
+
     cy.get('#meals li').eq(0).type('Burritos');
     cy.get('#meals li:eq(0) input[type=text]').should('have.value', 'Burritos');
 
@@ -29,6 +31,7 @@ describe('MealplanList', () => {
 
   it('allows to rename the first meal', () => {
     cy.visit('/');
+
     cy.get('#meals li:eq(0) input[type=text]').clear();
     cy.get('#meals li:eq(0) input[type=text]').should('have.value', '');
 
@@ -63,5 +66,44 @@ describe('MealplanList', () => {
 
     cy.get('#meals li:eq(2) input[type=checkbox]').uncheck();
     cy.get('#meals li:eq(2) input[type=checkbox]').should('not.be.checked');
+  });
+
+  it('gives focus to lastly added input field', () => {
+    cy.visit('/');
+
+    cy.get('#meals li').eq(0).type('Burritos');
+    cy.get('#meals li:eq(0) input[type=text]').should('have.value', 'Burritos');
+
+    cy.get('[name="addbutton"]').click();
+    cy.get('body').type('Falafel Wrap');
+    cy.get('#meals li:eq(1) input[type=text]').should(
+      'have.value',
+      'Falafel Wrap'
+    );
+
+    cy.get('[name="addbutton"]').click();
+    cy.get('body').type('Yakisoba');
+    cy.get('#meals li:eq(2) input[type=text]').should('have.value', 'Yakisoba');
+  });
+
+  it('adds an empty meal input after pressing enter', () => {
+    cy.visit('/');
+
+    cy.get('#meals li:eq(0) input[type=text]').type('Burritos');
+
+    cy.get('[name="addbutton"]').click();
+    cy.get('#meals li:eq(1) input[type=text]').type('Falafel Wrap');
+
+    cy.get('[name="addbutton"]').click();
+    cy.get('#meals li:eq(2) input[type=text]').type('Yakisoba');
+
+    cy.get('#meals li:eq(1) input[type=text]').type('{enter}');
+    cy.get('body').type('Schnitzel');
+    cy.get('#meals li:eq(2) input[type=text]').should(
+      'have.value',
+      'Schnitzel'
+    );
+
+    cy.get('#meals li:eq(3) input[type=text]').should('have.value', 'Yakisoba');
   });
 });
