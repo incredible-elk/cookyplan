@@ -1,7 +1,24 @@
-import styled from 'styled-components'
 import PropTypes from 'prop-types'
+import React, { useEffect, useRef } from 'react'
+import styled from 'styled-components'
 
-const MealInput = styled.input.attrs({
+export default function MealInput({ value, ...props }) {
+  const mealInput = useRef(null)
+
+  const handleInputFocus = () => {
+    mealInput.current.focus()
+  }
+
+  useEffect(() => {
+    if (value === '') {
+      handleInputFocus()
+    }
+  }, [value])
+
+  return <StyledMealInput {...props} ref={mealInput} value={value} />
+}
+
+const StyledMealInput = styled.input.attrs({
   className: 'mealinput',
   placeholder: 'e.g. "Rice with beans"',
   type: 'text',
@@ -41,5 +58,3 @@ MealInput.propTypes = {
   ]),
   onChange: PropTypes.func,
 }
-
-export default MealInput
