@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import imagePathPlus from '../images/plus.svg'
+import imagePathBin from '../images/deletebin.svg'
 
 const Button = styled.button`
   margin: 10px 0 0 20px;
@@ -25,6 +26,29 @@ export const AddButton = styled(Button)`
 
   :focus {
     outline: 1px var(--background) solid;
+  }
+`
+
+export const DeleteButton = styled(Button)`
+  visibility: hidden;
+  margin: 0 0 0 10px;
+  padding: 0;
+  width: 7%;
+  background: url(${imagePathBin}) no-repeat center;
+  opacity: 100%;
+  transition: visibility 0.01s ease;
+
+  :focus {
+    visibility: visible;
+    outline: 1px var(--background) solid;
+  }
+
+  input:focus + & {
+    visibility: visible;
+  }
+
+  :hover {
+    visibility: visible;
   }
 `
 
