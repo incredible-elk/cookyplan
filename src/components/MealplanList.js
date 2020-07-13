@@ -1,11 +1,10 @@
-import React, { useReducer, useEffect } from 'react'
+import React, { useReducer } from 'react'
 import styled from 'styled-components'
 import { v4 as uuidv4 } from 'uuid'
-
+import insertAfter from '../utils/insertAfter'
+import { AddButton } from './Button'
 import MealplanListItem from './MealplanListItem'
 import MealplanTitle from './MealplanTitle'
-import { AddButton } from './Button'
-import insertAfter from '../utils/insertAfter'
 
 const mealReducer = (state, action) => {
   switch (action.type) {
@@ -20,6 +19,7 @@ const mealReducer = (state, action) => {
           }
         }),
       }
+
     case 'UNDO_MEAL':
       return {
         ...state,
@@ -31,6 +31,7 @@ const mealReducer = (state, action) => {
           }
         }),
       }
+
     case 'RENAME_MEAL':
       return {
         ...state,
@@ -42,6 +43,7 @@ const mealReducer = (state, action) => {
           }
         }),
       }
+
     case 'RENAME_TITLE':
       return { ...state, title: action.value }
 
@@ -62,6 +64,13 @@ const mealReducer = (state, action) => {
           item: '',
           done: false,
         }),
+      }
+
+    case 'REMOVE_MEAL':
+      console.log(action.id)
+      return {
+        ...state,
+        items: state.items.filter((meal) => meal.id !== action.id),
       }
 
     default:
@@ -107,6 +116,13 @@ export default function MealplanList({ mealplanList }) {
     })
   }
 
+  const handleRemove = (meal) => {
+    dispatch({
+      type: 'REMOVE_MEAL',
+      id: meal.id,
+    })
+  }
+
   return (
     <>
       <StyledMealplanList>
@@ -121,7 +137,9 @@ export default function MealplanList({ mealplanList }) {
               checked={meal.done}
               className="mealinput"
               key={meal.id}
+              meal={meal}
               onCheckedChange={() => handleCheckChange(meal)}
+              onRemove={() => handleRemove(meal)}
               onKeyDownEnter={() => handleKeyDownEnter(meal)}
               onValueChange={(event) =>
                 handleInputChange(meal, event.target.value)

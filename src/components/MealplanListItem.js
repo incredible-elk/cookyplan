@@ -1,11 +1,14 @@
 import React from 'react'
-import MealInput from './MealInput'
-import Checkbox from './Checkbox'
 import styled from 'styled-components'
+import { DeleteButton } from './Button'
+import Checkbox from './Checkbox'
+import MealInput from './MealInput'
 
 export default function MealplanListItem({
   checked,
+  meal,
   onCheckedChange,
+  onRemove,
   onKeyDownEnter,
   onValueChange,
   value,
@@ -17,7 +20,7 @@ export default function MealplanListItem({
   }
 
   return (
-    <StyledMealplanListItem>
+    <StyledMealplanListItem meal={meal}>
       <Checkbox checked={checked} onChange={onCheckedChange} />
       <MealInput
         checked={checked}
@@ -26,6 +29,7 @@ export default function MealplanListItem({
         onKeyDown={handleKeyDown}
         value={value}
       />
+      <DeleteButton name="deletebutton" onClick={() => onRemove(meal.id)} />
     </StyledMealplanListItem>
   )
 }
