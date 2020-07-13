@@ -1,5 +1,5 @@
 import React from 'react'
-import Button, { AddButton } from './Button'
+import Button, { AddButton, DeleteButton } from './Button'
 import { action } from '@storybook/addon-actions'
 
 export default {
@@ -10,6 +10,14 @@ export default {
 export const DefaultButton = () => (
   <Button onClick={action('button-clicked')}>I'm a pretty Button</Button>
 )
+
 export const AddItemButton = () => (
-  <AddButton onClick={action('add-item')}>Add item</AddButton>
+  <AddButton onClick={action('add-item')}>Add meal</AddButton>
+)
+
+export const DeleteItemButton = () => (
+  <>
+    <input />
+    <DeleteButton onClick={action('delete-item')} />
+  </>
 )

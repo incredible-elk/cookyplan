@@ -106,4 +106,24 @@ describe('MealplanList', () => {
 
     cy.get('#meals li:eq(3) input[type=text]').should('have.value', 'Yakisoba');
   });
+
+  it('deletes the meal in focus when delete button is clicked', () => {
+    cy.visit('/');
+
+    cy.get('#meals li:eq(0) input[type=text]').type('Burritos');
+
+    cy.get('[name="addbutton"]').click();
+    cy.get('#meals li:eq(1) input[type=text]').type('Falafel Wrap');
+
+    cy.get('[name="addbutton"]').click();
+    cy.get('#meals li:eq(2) input[type=text]').type('Yakisoba');
+
+    cy.get('#meals li:eq(1) input[type=text]').type('{enter}');
+    cy.get('body').type('Schnitzel');
+
+    cy.get('#meals li:eq(3) input[type=text]').click();
+    cy.wait(1000);
+    // use of { force: true }, because can't see focus in tests. Delete only works on the input field that triggered the event.
+    cy.get('#meals li:eq(3) button[name=deletebutton]').click({ force: true });
+  });
 });
