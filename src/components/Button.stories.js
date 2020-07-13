@@ -12,7 +12,7 @@ export const DefaultButton = () => (
 )
 
 export const AddItemButton = () => (
-  <AddButton onClick={action('add-item')}>Add item</AddButton>
+  <AddButton onClick={action('add-item')}>Add meal</AddButton>
 )
 
 export const DeleteItemButton = () => (

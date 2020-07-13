@@ -67,7 +67,6 @@ const mealReducer = (state, action) => {
       }
 
     case 'REMOVE_MEAL':
-      console.log(action.id)
       return {
         ...state,
         items: state.items.filter((meal) => meal.id !== action.id),
@@ -154,7 +153,7 @@ export default function MealplanList({ mealplanList }) {
         name="addbutton"
         onClick={() => handleAddItemClick()}
       >
-        Add item
+        Add meal
       </AddButton>
     </>
   )
