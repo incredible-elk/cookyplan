@@ -123,7 +123,30 @@ describe('MealplanList', () => {
 
     cy.get('#meals li:eq(3) input[type=text]').click();
     cy.wait(1000);
-    // use of { force: true }, because can't see focus in tests. Delete only works on the input field that triggered the event.
-    cy.get('#meals li:eq(3) button[name=deletebutton]').click({ force: true });
+
+    cy.get('#meals li:eq(3) button[name=deletebutton]').click();
+  });
+
+  it.only('saves mealplanlist to local storage', () => {
+    cy.visit('/');
+
+    cy.get('[name="listtitle"]').type('Tuesday');
+    cy.get('#meals li:eq(0) input[type=text]').type('Burritos');
+    cy.get('[name="addbutton"]').click();
+    cy.get('#meals li:eq(1) input[type=text]').type('Falafel Wrap');
+    cy.get('[name="addbutton"]').click();
+    cy.get('#meals li:eq(2) input[type=text]').type('Yakisoba');
+    cy.get('#meals li:eq(2) input[type=checkbox]').check();
+
+    cy.reload();
+
+    cy.get('[name="listtitle"]').should('have.value', 'Tuesday');
+    cy.get('#meals li:eq(0) input[type=text]').should('have.value', 'Burritos');
+    cy.get('#meals li:eq(1) input[type=text]').should(
+      'have.value',
+      'Falafel Wrap'
+    );
+    cy.get('#meals li:eq(2) input[type=text]').should('have.value', 'Yakisoba');
+    cy.get('#meals li:eq(2) input[type=checkbox]').should('be.checked');
   });
 });
