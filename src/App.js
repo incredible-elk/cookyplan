@@ -1,18 +1,28 @@
-import React from 'react'
+import React, { useCallback } from 'react'
 import styled from 'styled-components'
 import Header from './components/Header'
 import MealplanList from './components/MealplanList'
+import { saveToLocal, loadFromLocal } from './utils/localStorage'
 
 function App() {
+  const handleChange = useCallback(
+    (mealplanList) => saveToLocal('mealplanList', mealplanList),
+    []
+  )
+
   return (
     <AppGrid>
       <Header />
       <StyledMain>
         <MealplanList
-          mealplanList={{
-            title: '',
-            items: [{ id: 'initial', item: '', done: false }],
-          }}
+          mealplanList={
+            loadFromLocal('mealplanList') || {
+              title: '',
+              items: [{ id: 'initial', item: '', done: false }],
+            }
+          }
+          name="mealplanList"
+          onChange={handleChange}
         />
       </StyledMain>
     </AppGrid>
