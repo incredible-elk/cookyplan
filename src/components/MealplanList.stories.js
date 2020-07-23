@@ -1,5 +1,6 @@
 import React from 'react'
 import MealplanList from './MealplanList'
+import { action } from '@storybook/addon-actions'
 
 export default {
   component: MealplanList,
@@ -22,8 +23,14 @@ export const mealplanListData = {
 }
 
 export const Empty = () => (
-  <MealplanList mealplanList={{ ...emptyMealplanListData }} />
+  <MealplanList
+    mealplanList={{ ...emptyMealplanListData }}
+    onChange={action('handle-change')}
+  />
 )
 export const WithTwoItems = () => (
-  <MealplanList mealplanList={{ ...mealplanListData }} />
+  <MealplanList
+    mealplanList={{ ...mealplanListData }}
+    onChange={action('handle-change')}
+  />
 )
