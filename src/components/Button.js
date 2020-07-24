@@ -15,6 +15,7 @@ const Button = styled.button`
   font-family: var(--app);
   font-size: 1rem;
   color: var(--background);
+  cursor: pointer;
 `
 
 export const AddButton = styled(Button)`
