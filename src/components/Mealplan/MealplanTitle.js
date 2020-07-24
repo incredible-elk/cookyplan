@@ -7,7 +7,7 @@ const MealplanTitle = styled.input.attrs({
   name: 'listtitle',
 })`
   height: 30px;
-  width: 80%;
+  width: 84%;
   margin: 20px 20px 10px 20px;
   padding: 5px;
   border: none;

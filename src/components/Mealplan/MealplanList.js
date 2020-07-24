@@ -1,8 +1,8 @@
 import React, { useReducer, useEffect } from 'react'
 import styled from 'styled-components'
 import { v4 as uuidv4 } from 'uuid'
-import insertAfter from '../utils/insertAfter'
-import { AddButton } from './Button'
+import insertAfter from '../../utils/insertAfter'
+import { AddButton } from '../Button'
 import MealplanListItem from './MealplanListItem'
 import MealplanTitle from './MealplanTitle'
 
@@ -77,12 +77,12 @@ const mealReducer = (state, action) => {
   }
 }
 
-export default function MealplanList({ mealplanList, onChange }) {
+export default function MealplanList({ mealplanList, saveChanges }) {
   const [list, dispatch] = useReducer(mealReducer, mealplanList)
 
   useEffect(() => {
-    onChange(list)
-  }, [list, onChange])
+    saveChanges(list)
+  }, [list, saveChanges])
 
   const handleCheckChange = (meal) => {
     dispatch({

@@ -25,12 +25,12 @@ export const mealplanListData = {
 export const Empty = () => (
   <MealplanList
     mealplanList={{ ...emptyMealplanListData }}
-    onChange={action('handle-change')}
+    saveChanges={action('handle-change')}
   />
 )
 export const WithTwoItems = () => (
   <MealplanList
     mealplanList={{ ...mealplanListData }}
-    onChange={action('handle-change')}
+    saveChanges={action('handle-change')}
   />
 )

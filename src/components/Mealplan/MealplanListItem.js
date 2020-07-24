@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { DeleteButton } from './Button'
-import Checkbox from './Checkbox'
+import { DeleteButton } from '../Button'
+import Checkbox from '../Checkbox'
 import MealInput from './MealInput'
 
 export default function MealplanListItem({
