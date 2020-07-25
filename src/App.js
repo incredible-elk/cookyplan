@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom'
 import styled from 'styled-components'
 import MealplanPage from './pages/MealplanPage'
 import RecipePage from './pages/RecipePage'
-import NotFound from './components/NotFound'
+import PageNotFound from './components/PageNotFound'
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={MealplanPage} />
         <Route path="/recipes" component={RecipePage} />
-        <Route component={NotFound} />
+        <Route component={PageNotFound} />
       </Switch>
     </AppGrid>
   )

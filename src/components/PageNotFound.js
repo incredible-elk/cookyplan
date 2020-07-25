@@ -2,10 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
-export default function NotFound() {
+export default function PageNotFound() {
   return (
     <Styled404>
-      <img src={require('../images/logo404.svg')} />
+      <img
+        src={require('../images/logo404.svg')}
+        alt="cookyplan logo - confused looking cooking pot"
+      />
       <h1>0ops! Page not found. </h1>
       <Link to="/">go back to Mealplan</Link>
     </Styled404>
