@@ -6,7 +6,7 @@ const MealplanTitle = styled.input.attrs({
   placeholder: 'e.g. "Monday", "Dinner"',
   name: 'listtitle',
 })`
-  height: 30px;
+  height: 35px;
   width: 84%;
   margin: 20px 20px 10px 20px;
   padding: 5px;
