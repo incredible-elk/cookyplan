@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import imagePathPlus from '../images/plus.svg'
 import imagePathBin from '../images/deletebin.svg'
+import imagePathLogo from '../images/inverted-logo.svg'
 
 const Button = styled.button`
   margin: 10px 0 0 20px;
@@ -51,6 +52,18 @@ export const DeleteButton = styled(Button)`
   :hover {
     visibility: visible;
   }
+`
+
+export const NavigationButton = styled(Button)`
+  width: 80px;
+  height: auto;
+  background: url(${imagePathLogo}) no-repeat center var(--summergreen);
+  background-position: left 23px top 7px;
+  margin: 0;
+  padding: 40px 5px 5px 5px;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 30px 30px 60px #d4d5d4;
+  color: var(--background);
 `
 
 export default Button
