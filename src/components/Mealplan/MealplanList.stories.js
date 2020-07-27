@@ -28,6 +28,7 @@ export const Empty = () => (
     saveChanges={action('handle-change')}
   />
 )
+
 export const WithTwoItems = () => (
   <MealplanList
     mealplanList={{ ...mealplanListData }}
