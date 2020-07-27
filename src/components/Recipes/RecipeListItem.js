@@ -8,7 +8,8 @@ export default function RecipeListItem({ title }) {
 const StyledRecipeListItem = styled.li`
   display: flex;
   flex-direction: row;
-  margin: 10px 0 0 20px;
+  margin: 10px 0 0 30px;
   list-style: none;
   font-family: var(--user);
+  color: var(--nandor);
 `
