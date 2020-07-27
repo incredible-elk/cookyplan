@@ -31,7 +31,7 @@ export default function MealplanPage() {
       </StyledMain>
 
       <StyledFooter>
-        <NavigationButton to="/recipes" as={NavLink}>
+        <NavigationButton name="navbutton" to="/recipes" as={NavLink}>
           Recipes
         </NavigationButton>
       </StyledFooter>
