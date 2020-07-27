@@ -22,11 +22,13 @@ const Button = styled.button`
 export const AddButton = styled(Button)`
   background: url(${imagePathPlus}) no-repeat;
   background-position: left 5px top 7px;
+  border: transparent;
   color: var(--summergreen);
   text-align: start;
-  padding-left: 36px;
+  padding: 3px 3px 3px 36px;
 
   :focus {
+    border: 1px var(--summergreen) solid;
     outline: 1px var(--background) solid;
   }
 `
@@ -38,10 +40,12 @@ export const DeleteButton = styled(Button)`
   width: 7%;
   background: url(${imagePathBin}) no-repeat center;
   opacity: 100%;
+  border: transparent;
   transition: visibility 0.01s ease;
 
   :focus {
     visibility: visible;
+    border: 1px var(--summergreen) solid;
     outline: 1px var(--background) solid;
   }
 
