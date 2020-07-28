@@ -1,0 +1,173 @@
+[
+  {
+    "id": "xx",
+    "title": "",
+    "details": [
+      {
+        "comment": "",
+        "prepTime": "",
+        "cookTime": "",
+        "totalTime": "",
+        "Servings": "",
+        "Author": ""
+      }
+    ],
+    "ingredients": [],
+    "method": ""
+  },
+
+  {
+    "id": "1",
+    "title": "Kaiserschmarrn",
+    "details": [
+      {
+        "comment": "",
+        "prepTime": "",
+        "cookTime": "",
+        "totalTime": "",
+        "Servings": "",
+        "Author": ""
+      }
+    ],
+    "ingredients": [
+      "1 EL Rum",
+      "2 Eigelb",
+      "15 g Zucker",
+      "1/2 Päckchen Vanillezucker",
+      "190 ml Milch",
+      "60 g Mehl",
+      "2 Eiweiß",
+      "20 g Butter",
+      "Puderzucker",
+      "Salz"
+    ],
+    "method": "Eiweiß zu Eischnee steif schlagen. Zucker, Vanillezucker, Butter und Eigelb verrühren. Alle Zutaten bis auf Eischnee vermengen. Eischnee vorisichtig unterheben. In Pfanne ausbacken. Mit Puderzucker garnieren."
+  },
+
+  {
+    "id": "2",
+    "title": "Cinnamon Buns",
+    "details": [
+      {
+        "comment": "",
+        "prepTime": "",
+        "cookTime": "20-25 Min.",
+        "totalTime": "",
+        "Servings": "15 Stück",
+        "Author": ""
+      }
+    ],
+    "ingredients": [
+      "1 Päckchen Hefe (7 g)",
+      "240 ml Pflanzenmilch",
+      "120 g Alsan",
+      "1/4 EL Salz",
+      "360 g Mehl",
+      "1 EL Zimt",
+      "100 g + 1 EL Zucker"
+    ],
+    "method": "1 gehäufter EL Alsan in die Milch geben und leicht erhitzen. Wenn die Butter geschmolzen ist, in eine Schüssel umfüllen und die Hefe dazugeben. 10 Minuten warten. 1 El Zucker, 1 TL Salz und 360 g Mehl unter Rühren hinzugeben und die Masse kneten, bis ein glatter Teig entsteht. 1 Stunde gehen lassen. Ofen auf 180-200°C vorheizen. Teig zum Rechteck ausrollen. Ungefähr 3 EL Butter auf dem Teig verteilen und anschließend 100 g Zucker, 1 EL Zimt und 1 Prise Salz vermischen und gleichmäßig darüber streuen. Teig zusammenrollen un din ca. 2-3 cm dicke Stücke schneiden. Backform einfetten, Stücke in die Form legen und 10 Minuten ruhen lassen. Anschließend für ca. 20-25 Minuten in den vorgeheizten Ofen (180-200°C) geben"
+  },
+
+  {
+    "id": "3",
+    "title": "Pfannkuchen",
+    "details": [
+      {
+        "comment": "",
+        "prepTime": "",
+        "cookTime": "",
+        "totalTime": "",
+        "Servings": "",
+        "Author": "Berni"
+      }
+    ],
+    "ingredients": [
+      "3 Eier",
+      "300 g Mehl",
+      "75 ml Mineralwasser",
+      "300 ml Milch",
+      "1 Päckchen Vanillezucker",
+      "150 g Zucker",
+      "1 Prise Salz"
+    ],
+    "method": "Eier trennen und das Eiweiß steif schlagen. Eigelb und die restlichen Zutaten vermischen und das Mehl und die Milch nach und nach zugeben. Teigmasse vorsichtig unter den Eischnee heben. Pfannkuchen in einer heißen Pfanne in etwas Butter ausbacken."
+  },
+  {
+    "id": "4",
+    "title": "Banoffee Pie",
+    "details": [
+      {
+        "comment": "",
+        "prepTime": "",
+        "cookTime": "",
+        "totalTime": "",
+        "Servings": "",
+        "Author": "Stephi"
+      }
+    ],
+    "ingredients": [
+      "Digestive Biscuits",
+      "Dulce de Leche or Condensed Milk",
+      "Bananas",
+      "Whipped Cream",
+      "Cinnamon (opional)",
+      "Chocolate chips (topping)"
+    ],
+    "method": "If you couldn`t get your hands on some dulce de leche - here is how you make your own: Using condensed milk: Cook tin fro min. 2-3 hours - move around every now and then. Using coconut milk: Heat coconut milk while stirring frequently unit caramalized.\n Melt butter in a pan. Crumble up digestives (put them in a zip lock bag and hit them with a rolling pin or another heavy object of your choice). Mix the melted butter into the digestive crumbles until the butter is well incorporated. Press the mixture onto a lined baking sheet or pie pan of your choice and refridgerate it until the dulce de leche is done. Spread the dulce de leche evenly on top of the crumble mixture. Slice the bananas as thick as you like them and distribute them on the dulce de leche layer. Add the whipped cream on top and garnish them with chocolate chips or grated chocolate. Refridgerate for at least 2 hours."
+  },
+
+  {
+    "id": "5",
+    "title": "Tofu Scramble",
+    "details": [
+      {
+        "comment": "",
+        "prepTime": "",
+        "cookTime": "",
+        "totalTime": "",
+        "Servings": "",
+        "Author": ""
+      }
+    ],
+    "ingredients": [
+      "1 block firm tofu",
+      "1 shallot (minced)",
+      "1 tsp coconut oil",
+      "2 tbsp nutiritional yeast",
+      "1/2 tsp tumeric",
+      "1/2 tsp paprika",
+      "1/4 cup non-diary milk",
+      "ground pepper",
+      "veggies"
+    ],
+    "method": "In a non-stick pan heated to medium, add coconut oil and fry the minced shallot for about 1 minute until soft. Next add the veggies and crumble the tofu by hand into the frying pan. Fry everything for another 2-3 minutes, then start adding in the spices, sea salt, and nutritional yeast. Cook for another 4 mintues until most of the liquid is absorbed and you're starting to see some browning on the tofu. Then you are going to reconstitute the scramble with non-dairy milk and cook for another 2 minutes. If you like, you can season your scramble with some ground pepper and green onion."
+  },
+
+  {
+    "id": "6",
+    "title": "Hefeteig für Apfelkuchen",
+    "details": [
+      {
+        "comment": "",
+        "prepTime": "",
+        "cookTime": "",
+        "totalTime": "",
+        "Servings": "",
+        "Author": ""
+      }
+    ],
+    "ingredients": [
+      "250 ml Wasser (oder Milch)",
+      "1 Würfel frische Hefe (oder 1 Päckchen Trockenhefe)",
+      "60 g Zucker",
+      "500 g Zucker",
+      "500 g Mehl",
+      "1 Prise Salz",
+      "60 g Butter",
+      "2 Eier",
+      "5 Äpfel (für ein Blech)"
+    ],
+    "method": ""
+  }
+]

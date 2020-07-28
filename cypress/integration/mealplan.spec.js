@@ -127,7 +127,7 @@ describe('MealplanList', () => {
     cy.get('#meals li:eq(3) button[name=deletebutton]').click();
   });
 
-  it.only('saves mealplanlist to local storage', () => {
+  it('saves mealplanlist to local storage', () => {
     cy.visit('/');
 
     cy.get('[name="listtitle"]').type('Tuesday');

@@ -22,10 +22,10 @@ export default createGlobalStyle`
 }
 
 body {
-  height: 100vh;
   background-color: var(--background);
   font-family: var(--app);
   font-size: 1.2rem;
   color: var(--inputnandor);
+  overflow: hidden;
 }
 `

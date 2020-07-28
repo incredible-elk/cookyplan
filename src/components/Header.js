@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 
-export default function Header() {
+export default function Header({ children }) {
   return (
     <StyledHeader>
-      <h1>Mealplan</h1>
+      <h1>{children}</h1>
     </StyledHeader>
   )
 }

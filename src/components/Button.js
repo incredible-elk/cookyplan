@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import imagePathPlus from '../images/plus.svg'
 import imagePathBin from '../images/deletebin.svg'
+import imagePathLogo from '../images/inverted-logo.svg'
 
 const Button = styled.button`
   margin: 10px 0 0 20px;
@@ -15,16 +16,19 @@ const Button = styled.button`
   font-family: var(--app);
   font-size: 1rem;
   color: var(--background);
+  cursor: pointer;
 `
 
 export const AddButton = styled(Button)`
   background: url(${imagePathPlus}) no-repeat;
   background-position: left 5px top 7px;
+  border: transparent;
   color: var(--summergreen);
   text-align: start;
-  padding-left: 36px;
+  padding: 3px 3px 3px 36px;
 
   :focus {
+    border: 1px var(--summergreen) solid;
     outline: 1px var(--background) solid;
   }
 `
@@ -36,10 +40,12 @@ export const DeleteButton = styled(Button)`
   width: 7%;
   background: url(${imagePathBin}) no-repeat center;
   opacity: 100%;
+  border: transparent;
   transition: visibility 0.01s ease;
 
   :focus {
     visibility: visible;
+    border: 1px var(--summergreen) solid;
     outline: 1px var(--background) solid;
   }
 
@@ -50,6 +56,18 @@ export const DeleteButton = styled(Button)`
   :hover {
     visibility: visible;
   }
+`
+
+export const NavigationButton = styled(Button)`
+  width: 80px;
+  height: auto;
+  background: url(${imagePathLogo}) no-repeat center var(--summergreen);
+  background-position: left 23px top 7px;
+  margin: 0;
+  padding: 40px 5px 5px 5px;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 30px 30px 60px #d4d5d4;
+  color: var(--background);
 `
 
 export default Button

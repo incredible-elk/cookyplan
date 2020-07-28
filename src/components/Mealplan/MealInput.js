@@ -30,6 +30,7 @@ const StyledMealInput = styled.input.attrs({
   background: none;
   border: none;
   border-bottom: solid 2px var(--summergreen);
+  border-radius: 0;
   color: var(--placeholder);
   font-size: 1.2rem;
   font-family: var(--user);
