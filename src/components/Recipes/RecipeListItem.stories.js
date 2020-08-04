@@ -6,4 +6,4 @@ export default {
   title: 'RecipeListItem',
 }
 
-export const Recipe = () => <RecipeListItem title="Burritos" />
+export const RecipeTitle = () => <RecipeListItem title="Burritos" />
