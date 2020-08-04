@@ -1,22 +1,5 @@
 [
   {
-    "id": "xx",
-    "title": "",
-    "details": [
-      {
-        "comment": "",
-        "prepTime": "",
-        "cookTime": "",
-        "totalTime": "",
-        "Servings": "",
-        "Author": ""
-      }
-    ],
-    "ingredients": [],
-    "method": ""
-  },
-
-  {
     "id": "1",
     "title": "Kaiserschmarrn",
     "details": [
@@ -26,7 +9,7 @@
         "cookTime": "",
         "totalTime": "",
         "Servings": "",
-        "Author": ""
+        "Inspiration": ""
       }
     ],
     "ingredients": [
@@ -41,7 +24,7 @@
       "Puderzucker",
       "Salz"
     ],
-    "method": "Eiweiß zu Eischnee steif schlagen. Zucker, Vanillezucker, Butter und Eigelb verrühren. Alle Zutaten bis auf Eischnee vermengen. Eischnee vorisichtig unterheben. In Pfanne ausbacken. Mit Puderzucker garnieren."
+    "method": "Eiweiß zu Eischnee steif schlagen.\n Zucker, Vanillezucker, Butter und Eigelb verrühren.\n Alle Zutaten bis auf Eischnee vermengen.\n Eischnee vorsichtig unterheben.\n In Pfanne ausbacken.\n Mit Puderzucker garnieren."
   },
 
   {
@@ -54,7 +37,7 @@
         "cookTime": "20-25 Min.",
         "totalTime": "",
         "Servings": "15 Stück",
-        "Author": ""
+        "Inspiration": ""
       }
     ],
     "ingredients": [
@@ -66,7 +49,7 @@
       "1 EL Zimt",
       "100 g + 1 EL Zucker"
     ],
-    "method": "1 gehäufter EL Alsan in die Milch geben und leicht erhitzen. Wenn die Butter geschmolzen ist, in eine Schüssel umfüllen und die Hefe dazugeben. 10 Minuten warten. 1 El Zucker, 1 TL Salz und 360 g Mehl unter Rühren hinzugeben und die Masse kneten, bis ein glatter Teig entsteht. 1 Stunde gehen lassen. Ofen auf 180-200°C vorheizen. Teig zum Rechteck ausrollen. Ungefähr 3 EL Butter auf dem Teig verteilen und anschließend 100 g Zucker, 1 EL Zimt und 1 Prise Salz vermischen und gleichmäßig darüber streuen. Teig zusammenrollen un din ca. 2-3 cm dicke Stücke schneiden. Backform einfetten, Stücke in die Form legen und 10 Minuten ruhen lassen. Anschließend für ca. 20-25 Minuten in den vorgeheizten Ofen (180-200°C) geben"
+    "method": "1 gehäufter EL Alsan in die Milch geben und leicht erhitzen.\n Wenn die Butter geschmolzen ist, in eine Schüssel umfüllen und die Hefe dazugeben.\n 10 Minuten warten.\n 1 El Zucker, 1 TL Salz und 360 g Mehl unter Rühren hinzugeben und die Masse kneten, bis ein glatter Teig entsteht.\n 1 Stunde gehen lassen.\n Ofen auf 180-200°C vorheizen.\n Teig zum Rechteck ausrollen.\n Ungefähr 3 EL Butter auf dem Teig verteilen und anschließend 100 g Zucker, 1 EL Zimt und 1 Prise Salz vermischen und gleichmäßig darüber streuen.\n Teig zusammenrollen un din ca. 2-3 cm dicke Stücke schneiden.\n Backform einfetten, Stücke in die Form legen und 10 Minuten ruhen lassen.\n Anschließend für ca. 20-25 Minuten in den vorgeheizten Ofen (180-200°C) geben."
   },
 
   {
@@ -79,7 +62,7 @@
         "cookTime": "",
         "totalTime": "",
         "Servings": "",
-        "Author": "Berni"
+        "Inspiration": "Berni"
       }
     ],
     "ingredients": [
@@ -91,7 +74,7 @@
       "150 g Zucker",
       "1 Prise Salz"
     ],
-    "method": "Eier trennen und das Eiweiß steif schlagen. Eigelb und die restlichen Zutaten vermischen und das Mehl und die Milch nach und nach zugeben. Teigmasse vorsichtig unter den Eischnee heben. Pfannkuchen in einer heißen Pfanne in etwas Butter ausbacken."
+    "method": "Eier trennen und das Eiweiß steif schlagen.\n Eigelb und die restlichen Zutaten vermischen und das Mehl und die Milch nach und nach zugeben.\n Teigmasse vorsichtig unter den Eischnee heben.\n Pfannkuchen in einer heißen Pfanne in etwas Butter ausbacken."
   },
   {
     "id": "4",
@@ -103,7 +86,7 @@
         "cookTime": "",
         "totalTime": "",
         "Servings": "",
-        "Author": "Stephi"
+        "Inspiration": "Stephi"
       }
     ],
     "ingredients": [
@@ -114,7 +97,7 @@
       "Cinnamon (opional)",
       "Chocolate chips (topping)"
     ],
-    "method": "If you couldn`t get your hands on some dulce de leche - here is how you make your own: Using condensed milk: Cook tin fro min. 2-3 hours - move around every now and then. Using coconut milk: Heat coconut milk while stirring frequently unit caramalized.\n Melt butter in a pan. Crumble up digestives (put them in a zip lock bag and hit them with a rolling pin or another heavy object of your choice). Mix the melted butter into the digestive crumbles until the butter is well incorporated. Press the mixture onto a lined baking sheet or pie pan of your choice and refridgerate it until the dulce de leche is done. Spread the dulce de leche evenly on top of the crumble mixture. Slice the bananas as thick as you like them and distribute them on the dulce de leche layer. Add the whipped cream on top and garnish them with chocolate chips or grated chocolate. Refridgerate for at least 2 hours."
+    "method": "If you couldn`t get your hands on some dulce de leche - here is how you make your own: Using condensed milk:\n Cook tin fro min.\n 2-3 hours - move around every now and then.\n Using coconut milk:\n Heat coconut milk while stirring frequently unit caramalized.\n Melt butter in a pan.\n Crumble up digestives (put them in a zip lock bag and hit them with a rolling pin or another heavy object of your choice).\n Mix the melted butter into the digestive crumbles until the butter is well incorporated.\n Press the mixture onto a lined baking sheet or pie pan of your choice and refridgerate it until the dulce de leche is done.\n Spread the dulce de leche evenly on top of the crumble mixture.\n Slice the bananas as thick as you like them and distribute them on the dulce de leche layer.\n Add the whipped cream on top and garnish them with chocolate chips or grated chocolate.\n Refridgerate for at least 2 hours."
   },
 
   {
@@ -127,7 +110,7 @@
         "cookTime": "",
         "totalTime": "",
         "Servings": "",
-        "Author": ""
+        "Inspiration": ""
       }
     ],
     "ingredients": [
@@ -141,7 +124,7 @@
       "ground pepper",
       "veggies"
     ],
-    "method": "In a non-stick pan heated to medium, add coconut oil and fry the minced shallot for about 1 minute until soft. Next add the veggies and crumble the tofu by hand into the frying pan. Fry everything for another 2-3 minutes, then start adding in the spices, sea salt, and nutritional yeast. Cook for another 4 mintues until most of the liquid is absorbed and you're starting to see some browning on the tofu. Then you are going to reconstitute the scramble with non-dairy milk and cook for another 2 minutes. If you like, you can season your scramble with some ground pepper and green onion."
+    "method": "In a non-stick pan heated to medium, add coconut oil and fry the minced shallot for about 1 minute until soft.\n Next add the veggies and crumble the tofu by hand into the frying pan.\n Fry everything for another 2-3 minutes, then start adding in the spices, sea salt, and nutritional yeast.\n Cook for another 4 mintues until most of the liquid is absorbed and you're starting to see some browning on the tofu.\n Then you are going to reconstitute the scramble with non-dairy milk and cook for another 2 minutes.\n If you like, you can season your scramble with some ground pepper and green onion."
   },
 
   {
@@ -154,7 +137,7 @@
         "cookTime": "",
         "totalTime": "",
         "Servings": "",
-        "Author": ""
+        "Inspiration": ""
       }
     ],
     "ingredients": [
@@ -169,5 +152,91 @@
       "5 Äpfel (für ein Blech)"
     ],
     "method": ""
+  },
+
+  {
+    "id": "7",
+    "title": "Miso-Aubergine mit asiatischem Gurkensalat",
+    "details": [
+      {
+        "comment": "Hauptgericht",
+        "prepTime": "",
+        "cookTime": "",
+        "totalTime": "~ 45 Minuten",
+        "Servings": "2-3",
+        "Inspiration": "etepetete"
+      }
+    ],
+    "ingredients": [
+      "1-2 Auberginen",
+      "1 Gurke",
+      "1 Limette",
+      "2 EL Sesamöl",
+      "1 EL Misopaste",
+      "1 EL Sojasauce",
+      "1 EL Ahornsirup",
+      "2 EL Sesam"
+    ],
+    "method": "Den Ofen auf 180°C Umluf vorheizen.\n Die Aubergine waschen, den Strunk entfernen, die Aubergine anschließend in Scheiben schneiden und das Fruschtfleisch jeder Scheibe rautenförmig mit einem Messer einritzen.\n Anschließend aus dem Saft der Limette, dem Sesamöl, der Misopaste, der Sojasauce und dem Ahornsirup ein Dressing anrühren.\n Die Hälfte des Dressings auf die Auberginenscheiben streichen und diese anschlie0end im Ofen für ca. 30 Minuten backen.\n Währenddessen die Gurke hobeln und mit dem restlichen Dressing vermengen.\n Den Gurkensalat für ca. 10 Minuten ziehen lassen.\n Dann die Miso-Auberginen aus dem Ofen nehmen und zusammen mit dem Gurkensalat und mit Sesam garniert servieren.\n Tipp: Die Auberginen lassen sich auch sehr gut auf dem Grill zubereiten."
+  },
+
+  {
+    "id": "8",
+    "title": "Kichererbsen-Gurken-Salat auf Bauernbrot",
+    "details": [
+      {
+        "comment": "Hauptgericht",
+        "prepTime": "",
+        "cookTime": "",
+        "totalTime": "~ 30 Minuten",
+        "Servings": "2-3",
+        "Inspiration": "etepetete"
+      }
+    ],
+    "ingredients": [
+      "1 Gurke",
+      "1 Zitrone",
+      "1 Dose Kichererbsen (400g)",
+      "2-4 Scheiben Bauernbrot",
+      "50g Cashewkerne",
+      "20g Pininenkerne",
+      "1 TL Ahornsirup",
+      "1 TL Paprikapulver",
+      "Frischer Dill",
+      "Pfeffer",
+      "Salz"
+    ],
+    "method": "Die Pinienkerne zusammen mit den Cashewkernen für ca. 20 Minuten in einer Schale voll lauwarmen Wasser einweichen.\n Das lauwarme Wasser abgießen und beides mit dem Saft der Zitrone, dem Ahornsirup, dem Paprikapulver und etwas Salz zu einem Dressing pürieren.\n Die Gurke nach Belieben fein hobeln oder in schmale Scheiben oder Stücke schneiden.\n Dann die Kichererbsen abtropfen und zusammen mit den Gurkenscheiben und dem Dressing vermengen.\n Etwas frischen Dill hacken und unterrühren.\n Den Kichererbsen-Gurkensalat nochmals mit Salz und etwas Pfeffer abschmecken und auf frischem Bauernbrot angerichtet servieren."
+  },
+
+  {
+    "id": "9",
+    "title": "Gebratene Nudeln mit Gemüse",
+    "details": [
+      {
+        "comment": "Hauptgericht",
+        "prepTime": "",
+        "cookTime": "",
+        "totalTime": "~ 30 Minuten",
+        "Servings": "2-3",
+        "Inspiration": "etepetete"
+      }
+    ],
+    "ingredients": [
+      "1 Paprika",
+      "1 Zwiebel",
+      "2 Karotten",
+      "1/2 Zuccini",
+      "150g Zuckerschoten",
+      "200g Dinkel Spaghetti oder Soba Nudeln",
+      "2 Eier",
+      "1 EL Sesamöl",
+      "3 EL Sojasauce",
+      "1/2 TL Sambal Oelek",
+      "50g Cashewkerne",
+      "Salz",
+      "Optional: Minze, Sesam"
+    ],
+    "method": "Die Nudeln nach Packungsanleitung in Salzwasser kochen, abgießen und beiseitestellen.\n Das Gemüse waschen.\n Die Paprika und Zuccini in schmale Streifen bzw. kleine Stücke schneiden, die Karotten raspeln.\n Die Zwiebel schälen und fein würfeln.\n Nun das Sesamöl in einer großen beschichteten Pfanne erhitzen.\n Die Zwiebeln und das Gemüse bis auf die Karottenraspeln darin kurz anbraten.\n Herausnehmen und beiseitestellen.\n Dann die Nudeln und alles Gemüse in die Pfanne geben, alles miteinander vermengen und nochmals einige Minuten anbraten.\n Die Eier hinzugeben und die Sojasauce und dem Sambal Oelek einrühren.\n Die Nudeln unter Rühren braten, bis das Ei stockt.\n Das fertige Gericht mit Cashewkernen und optional mit gehackter Minze und Sesam garniert servieren."
   }
 ]
