@@ -7,7 +7,7 @@ export default function Header({ children, hasBackArrow }) {
   return (
     <StyledHeader>
       {hasBackArrow ? (
-        <StyledLink to="/recipes">
+        <StyledLink data-testid="back-arrow" to="/recipes">
           <img src={imagePathBackArrow} alt="back-arrow" />
         </StyledLink>
       ) : null}
