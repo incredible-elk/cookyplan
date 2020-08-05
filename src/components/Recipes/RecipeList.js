@@ -5,7 +5,7 @@ import RecipeListItem from './RecipeListItem'
 
 export default function RecipeList() {
   return (
-    <StyledRecipeList>
+    <StyledRecipeList id="recipes">
       {recipes.map(({ id, title }) => (
         <RecipeListItem id={id} key={id} title={title} />
       ))}
