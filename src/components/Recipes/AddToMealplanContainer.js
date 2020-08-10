@@ -52,6 +52,7 @@ export default function AddToMealplanContainer({ title }) {
   return (
     <Container>
       <AddRecipeTitleToMealplanToggle
+        data-testid="add-to-mealplan"
         onClick={() => {
           setActive(!active)
           if (active) {
