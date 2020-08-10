@@ -12,7 +12,6 @@ export default function RecipeListItem({ id, title }) {
 
 const StyledRecipeListItem = styled.li`
   display: flex;
-  flex-direction: row;
   margin: 0 30px;
   padding: 15px 0;
   list-style: none;
