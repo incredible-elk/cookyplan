@@ -6,4 +6,8 @@ export default {
   title: 'Header',
 }
 
-export const Mealplan = () => <Header value="Mealplan" />
+export const Mealplan = () => <Header>Mealplan</Header>
+
+export const Recipes = () => <Header>Recipes</Header>
+
+export const RecipeDetail = () => <Header hasBackArrow />
