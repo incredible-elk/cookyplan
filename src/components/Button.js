@@ -27,6 +27,8 @@ export const AddButton = styled(Button)`
   text-align: start;
   padding: 3px 3px 3px 36px;
 
+  -webkit-tap-highlight-color: transparent;
+
   :focus {
     border: 1px var(--summergreen) solid;
     outline: 1px var(--background) solid;
