@@ -10,8 +10,7 @@ export default createGlobalStyle`
   --grey: #EEEFEF;
   --placeholder: #7c807e; /* --nandor at 70% opacity */ 
   --divider: rgba(154, 193, 176, 0.5); /* --summergreen at 50% opacity */
-  --falcon: #876277;
-  --accent: var(--falcon);
+ 
   --app: 'Prompt', sans-serif;
   --user: 'Shadows Into Light Two', cursive;
 }
