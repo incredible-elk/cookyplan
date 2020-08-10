@@ -1,10 +1,10 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
-import Header from '../components/Header'
-import imagePathClipboard from '../images/inverted-clipboard.svg'
 import { NavigationButton } from '../components/Button'
+import Header from '../components/Header'
 import RecipeList from '../components/Recipes/RecipeList'
+import imagePathClipboard from '../images/inverted-clipboard.svg'
 
 export default function RecipePage() {
   return (
