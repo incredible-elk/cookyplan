@@ -37,7 +37,7 @@ const StyledHeader = styled.h3`
   color: var(--summergreen);
 `
 
-const StyledDetails = styled.p`
+const StyledDetails = styled.div`
   margin: 0 auto;
   width: 80%;
   height: auto;
