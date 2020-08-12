@@ -72,7 +72,7 @@ export const NavigationButton = styled(Button)`
   color: var(--background);
 `
 
-export const AddRecipeTitleToMealplanToggle = styled(Button)`
+export const AddOrRemoveFromMealplan = styled(Button)`
   width: auto;
   height: auto;
   margin-right: 10px;
