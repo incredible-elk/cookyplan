@@ -1,17 +1,15 @@
 import React, { useState } from 'react'
-import { AddRecipeTitleToMealplanToggle } from '../Button'
+import { AddOrRemoveFromMealplan } from '../Button'
 import imagePathPlus from '../../images/inverted-plus.svg'
 import { v4 as uuidv4 } from 'uuid'
 
 import styled from 'styled-components'
-import { saveToLocal, loadFromLocal } from '../../utils/localStorage'
+import { saveToLocal } from '../../utils/localStorage'
+import loadMealplanList from '../../utils/loadMealplanList'
 
-export default function AddToMealplanContainer({ title }) {
+export default function AddToMealplanToggle({ title }) {
   const [active, setActive] = useState(() => {
-    const mealplanList = loadFromLocal('mealplanList') || {
-      title: '',
-      items: [{ id: 'initial', item: '', done: false }],
-    }
+    const mealplanList = loadMealplanList()
 
     const initialState =
       mealplanList.items.find((meal) => {
@@ -22,10 +20,7 @@ export default function AddToMealplanContainer({ title }) {
 
   const addRecipeToMealplan = (title) => {
     const newMeal = { id: uuidv4(), item: title, done: false }
-    const mealplanList = loadFromLocal('mealplanList') || {
-      title: '',
-      items: [{ id: 'initial', item: '', done: false }],
-    }
+    const mealplanList = loadMealplanList()
     const newMealplanList = {
       ...mealplanList,
       items:
@@ -38,10 +33,7 @@ export default function AddToMealplanContainer({ title }) {
   }
 
   const deleteRecipeFromMealplan = (title) => {
-    const mealplanList = loadFromLocal('mealplanList') || {
-      title: '',
-      items: [{ id: 'initial', item: '', done: false }],
-    }
+    const mealplanList = loadMealplanList()
     const newMealplanList = {
       ...mealplanList,
       items: mealplanList.items.filter((meal) => meal.item !== title),
@@ -50,9 +42,9 @@ export default function AddToMealplanContainer({ title }) {
   }
 
   return (
-    <Container>
-      <AddRecipeTitleToMealplanToggle
-        data-testid="add-to-mealplan"
+    <ToggleContainer>
+      <AddOrRemoveFromMealplan
+        data-testid="add-or-remove-from-mealplan"
         onClick={() => {
           setActive(!active)
           if (active) {
@@ -64,18 +56,18 @@ export default function AddToMealplanContainer({ title }) {
       >
         {active ? 'Remove from Mealplan' : 'Add to Mealplan'}
         <StyledImage active={active} src={imagePathPlus} />
-      </AddRecipeTitleToMealplanToggle>
-    </Container>
+      </AddOrRemoveFromMealplan>
+    </ToggleContainer>
   )
 }
 
-export const Container = styled.div`
+export const ToggleContainer = styled.div`
   display: flex;
   justify-content: flex-end;
   position: absolute;
   right: 10px;
 
-  ${AddRecipeTitleToMealplanToggle} {
+  ${AddOrRemoveFromMealplan} {
     margin-bottom: 10px;
   }
 `
