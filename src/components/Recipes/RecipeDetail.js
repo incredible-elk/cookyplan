@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import styled from 'styled-components'
 
 export default function RecipeDetail({ ingredients, method, title }) {
@@ -7,17 +7,17 @@ export default function RecipeDetail({ ingredients, method, title }) {
       <StyledTitle>{title}</StyledTitle>
       <StyledHeader>Ingredients:</StyledHeader>
       <StyledDetails>
-        {ingredients.map((ingredient) => (
-          <>
+        {ingredients.map((ingredient, index) => (
+          <Fragment key={index}>
             {ingredient}
             <br />
-          </>
+          </Fragment>
         ))}
       </StyledDetails>
       <StyledHeader>Method:</StyledHeader>
       <StyledDetails>
-        {method.split('\n').map((paragraph) => (
-          <p>{paragraph}</p>
+        {method.split('\n').map((paragraph, index) => (
+          <p key={index}>{paragraph}</p>
         ))}
       </StyledDetails>
     </>
