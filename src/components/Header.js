@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import imagePathBackArrow from '../images/back-arrow.svg'
 
-export default function Header({ children, extraElements, hasBackArrow }) {
+export default function Header({ children, extraComponents, hasBackArrow }) {
   return (
     <StyledHeader>
       {hasBackArrow ? (
@@ -11,7 +11,7 @@ export default function Header({ children, extraElements, hasBackArrow }) {
           <img src={imagePathBackArrow} alt="back-arrow" />
         </StyledLink>
       ) : null}
-      {extraElements}
+      {extraComponents}
       <h1>{children}</h1>
     </StyledHeader>
   )
