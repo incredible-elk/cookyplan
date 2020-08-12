@@ -9,7 +9,7 @@ export default function PageNotFound() {
         src={require('../images/logo404.svg')}
         alt="cookyplan logo - confused looking cooking pot"
       />
-      <h1>0ops! Page not found. </h1>
+      <h1>Oops! Page not found.</h1>
       <Link to="/">go back to Mealplan</Link>
     </Styled404>
   )
