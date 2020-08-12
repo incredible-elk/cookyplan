@@ -3,11 +3,11 @@ import Button, {
   AddButton,
   DeleteButton,
   NavigationButton,
-  AddRecipeTitleToMealplanToggle,
+  AddOrRemoveFromMealplan,
 } from './Button'
 import imagePathPlus from '../images/inverted-plus.svg'
 import { action } from '@storybook/addon-actions'
-import { StyledImage } from './Recipes/AddToMealplanContainer'
+import { StyledImage } from './Recipes/AddToMealplanToggle'
 
 export default {
   component: Button,
@@ -34,8 +34,8 @@ export const NavigateToButton = () => (
 )
 
 export const AddRecipeToMealplanToggle = () => (
-  <AddRecipeTitleToMealplanToggle>
+  <AddOrRemoveFromMealplan>
     Add to Mealplan
     <StyledImage onClick={action('Add to Mealplan')} src={imagePathPlus} />
-  </AddRecipeTitleToMealplanToggle>
+  </AddOrRemoveFromMealplan>
 )
