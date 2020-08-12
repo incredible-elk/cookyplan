@@ -2,7 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import styled from 'styled-components'
 import Header from '../components/Header'
-import AddToMealplanContainer from '../components/Recipes/AddToMealplanContainer'
+import AddToMealplanToggle from '../components/Recipes/AddToMealplanToggle'
 import RecipeDetail from '../components/Recipes/RecipeDetail'
 import recipes from '../components/__mocks__/recipes.json'
 
@@ -16,7 +16,7 @@ export default function RecipeDetailPage() {
   return (
     <>
       <Header
-        extraElements={<AddToMealplanContainer title={title} />}
+        extraComponents={<AddToMealplanToggle title={title} />}
         hasBackArrow
       ></Header>
       <StyledMain>
