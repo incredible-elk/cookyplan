@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-import imagePathPlus from '../images/plus.svg'
 import imagePathBin from '../images/deletebin.svg'
 import imagePathLogo from '../images/inverted-logo.svg'
+import imagePathPlus from '../images/plus.svg'
 
 const Button = styled.button`
   margin: 10px 0 0 20px;
@@ -26,6 +26,8 @@ export const AddButton = styled(Button)`
   color: var(--summergreen);
   text-align: start;
   padding: 3px 3px 3px 36px;
+
+  -webkit-tap-highlight-color: transparent;
 
   :focus {
     border: 1px var(--summergreen) solid;
@@ -68,6 +70,24 @@ export const NavigationButton = styled(Button)`
   border-radius: 20px 20px 0 0;
   box-shadow: 30px 30px 60px #d4d5d4;
   color: var(--background);
+`
+
+export const AddOrRemoveFromMealplan = styled(Button)`
+  width: auto;
+  height: auto;
+  margin-right: 10px;
+  padding: 5px;
+  background: var(--summergreen);
+  border: 1px solid var(--summergreen);
+  color: var(--background);
+  text-align: center;
+
+  -webkit-tap-highlight-color: transparent;
+
+  :focus {
+    border: 1px var(--summergreen) solid;
+    outline: 1px var(--background) solid;
+  }
 `
 
 export default Button

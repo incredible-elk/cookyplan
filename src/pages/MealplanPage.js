@@ -3,7 +3,8 @@ import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 import Header from '../components/Header'
 import MealplanList from '../components/Mealplan/MealplanList'
-import { saveToLocal, loadFromLocal } from '../utils/localStorage'
+import { saveToLocal } from '../utils/localStorage'
+import loadMealplanList from '../utils/loadMealplanList'
 import { NavigationButton } from '../components/Button'
 import imagePathHat from '../images/inverted-hat.svg'
 
@@ -19,12 +20,7 @@ export default function MealplanPage() {
 
       <StyledMain>
         <MealplanList
-          mealplanList={
-            loadFromLocal('mealplanList') || {
-              title: '',
-              items: [{ id: 'initial', item: '', done: false }],
-            }
-          }
+          mealplanList={loadMealplanList()}
           name="mealplanList"
           saveChanges={handleChange}
         />

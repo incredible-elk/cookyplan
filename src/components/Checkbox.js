@@ -23,6 +23,8 @@ const HiddenCheckbox = styled.input.attrs({ type: 'checkbox' })`
   width: 24px;
   opacity: 0;
   cursor: pointer;
+
+  -webkit-tap-highlight-color: transparent;
 `
 
 const StyledCheckbox = styled.div`

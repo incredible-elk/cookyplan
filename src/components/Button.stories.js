@@ -1,6 +1,13 @@
 import React from 'react'
-import Button, { AddButton, DeleteButton, NavigationButton } from './Button'
+import Button, {
+  AddButton,
+  DeleteButton,
+  NavigationButton,
+  AddOrRemoveFromMealplan,
+} from './Button'
+import imagePathPlus from '../images/inverted-plus.svg'
 import { action } from '@storybook/addon-actions'
+import { StyledImage } from './Recipes/AddToMealplanToggle'
 
 export default {
   component: Button,
@@ -24,4 +31,11 @@ export const DeleteItemButton = () => (
 
 export const NavigateToButton = () => (
   <NavigationButton>Navigate</NavigationButton>
+)
+
+export const AddRecipeToMealplanToggle = () => (
+  <AddOrRemoveFromMealplan>
+    Add to Mealplan
+    <StyledImage onClick={action('Add to Mealplan')} src={imagePathPlus} />
+  </AddOrRemoveFromMealplan>
 )
