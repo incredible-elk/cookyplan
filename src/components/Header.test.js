@@ -22,7 +22,7 @@ describe('Header.test.js', () => {
   it('renders extra elements', () => {
     const { getByTestId } = render(
       <MemoryRouter>
-        <Header extraElements={<div data-testid="extra-element" />} />
+        <Header extraComponents={<div data-testid="extra-element" />} />
       </MemoryRouter>
     )
     getByTestId('extra-element')
