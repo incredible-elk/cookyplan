@@ -76,7 +76,7 @@ export const AddRecipeTitleToMealplanToggle = styled(Button)`
   width: auto;
   height: auto;
   margin-right: 10px;
-  padding: 5px 5px 5px 5px;
+  padding: 5px;
   background: var(--summergreen);
   border: 1px solid var(--summergreen);
   color: var(--background);
