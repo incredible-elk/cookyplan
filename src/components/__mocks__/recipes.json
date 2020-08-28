@@ -71,7 +71,7 @@
       "75 ml Mineralwasser",
       "300 ml Milch",
       "1 Päckchen Vanillezucker",
-      "150 g Zucker",
+      "100 g Zucker",
       "1 Prise Salz"
     ],
     "method": "Eier trennen und das Eiweiß steif schlagen.\n Eigelb und die restlichen Zutaten vermischen und das Mehl und die Milch nach und nach zugeben.\n Teigmasse vorsichtig unter den Eischnee heben.\n Pfannkuchen in einer heißen Pfanne in etwas Butter ausbacken."
@@ -238,5 +238,70 @@
       "Optional: Minze, Sesam"
     ],
     "method": "Die Nudeln nach Packungsanleitung in Salzwasser kochen, abgießen und beiseitestellen.\n Das Gemüse waschen.\n Die Paprika und Zuccini in schmale Streifen bzw. kleine Stücke schneiden, die Karotten raspeln.\n Die Zwiebel schälen und fein würfeln.\n Nun das Sesamöl in einer großen beschichteten Pfanne erhitzen.\n Die Zwiebeln und das Gemüse bis auf die Karottenraspeln darin kurz anbraten.\n Herausnehmen und beiseitestellen.\n Dann die Nudeln und alles Gemüse in die Pfanne geben, alles miteinander vermengen und nochmals einige Minuten anbraten.\n Die Eier hinzugeben und die Sojasauce und dem Sambal Oelek einrühren.\n Die Nudeln unter Rühren braten, bis das Ei stockt.\n Das fertige Gericht mit Cashewkernen und optional mit gehackter Minze und Sesam garniert servieren."
+  },
+
+  {
+    "id": "10",
+    "title": "Baba Ganoush",
+    "details": [
+      {
+        "comment": "Hauptgericht",
+        "prepTime": "",
+        "cookTime": "",
+        "totalTime": "~ 30 Minuten",
+        "Servings": "2-3",
+        "Inspiration": "etepetete"
+      }
+    ],
+    "ingredients": [
+      "1 Aubergine",
+      "1 Zuccini",
+      "1-3 Zehen Knoblauch",
+      "1 EL Tahin",
+      "1-2 EL Olivenöl",
+      "2 EL Joghurt",
+      "Salz",
+      "1/2 Zitrone",
+      "1/2 TL getrocknete Minze",
+      "1/2 TL Cumin",
+      "großzügige Prise Sumak",
+      "Tomaten kleingehackt",
+      "Kräuter (optional- z.B. frische Petersilie, frischer Koriander"
+    ],
+    "method": "Ofen auf 240°C Umluft (+Grill) vorheizen.\n Aubergine mehrfach einstechen und nach Belieben Knoblauch unter die Schale stopfen.\n Zuccini ebenfalls rundum einstechen.\n Aubergine und Zuccini für mindestens 30 Minuten in den Ofen geben - zwischendurch wenden.\n Wenn die Schale komplett schwarz ist, sind sie fertig.\n Fruchtfleisch mit einem Löffen auskratzen und in einem Sieb abtropfen lassen (nach Bedarf ein paar Kerne der Aubergine entfernen, da sie Bitterstoffe enthalten).\n Masse auf einem Schneidebrett verteilen und fein hacken.\n In eine Schüssel geben und mit den restlichen Zutaten abschmecken und garnieren."
+  },
+  {
+    "id": "11",
+    "title": "Kohlsalat mit Kokos-Tofu-Spießen",
+    "details": [
+      {
+        "comment": "",
+        "prepTime": "",
+        "cookTime": "",
+        "totalTime": "",
+        "Servings": "",
+        "Inspiration": ""
+      }
+    ],
+    "ingredients": [
+      "1 kleiner Rotkohl",
+      "1 kleiner Weißkohl",
+      "1 Mango",
+      "2 Lauchzwiebeln",
+      "150ml Kokosmilch",
+      "350g Tofu",
+      "100g Mehl",
+      "250g Kokosflocken",
+      "2 EL Kokosöl",
+      "2 EL Sesamöl",
+      "1 EL Sojasauce",
+      "1 EL Honig",
+      "Sesam",
+      "Frischer Koriander",
+      "Frische Minze",
+      "Salz",
+      "Pfeffer"
+    ],
+    "method": "Den Weiß- und Rotkohl mit einem Hobel in feine Streifen hobeln, die Lauchzwiebeln in feine Ringe schneiden und die Mango in schmale Streifen schneiden.\n Das Dressing aus Sesamöl, Sojasauce, Honig, Salz und Pfeffer anrühren und mit den Kohl, den Lauchzwiebeln und der Mango vermengen. Den Koriander un die Minze hacken und ebenfalls unterrühren. Für ca. 20 Minuten ziehen lassen.\n Während der Salat zieht, den Tofu mit einem Küchentuch von allen Seiten trocken tupfen und in ca. 2x2cm große und 1cm dicke Rechtecke schneiden. Das Mehl, die Kokosflocken und die Kokosmilch auf je einen Teller geben.\n Nun mit den Händen jeden Tofuwürfel erst im Mehl und anschließend in der Kokosmilch und den Kokosflocken wäzlen, bis sie rundum bedeckt sind.\n Nun das Kokosöl in einer Pfanne erhitzen und die panierten Tofuwürfel darin goldbraun anbraten. Optional zum Servieren auf Schaschlikspieße oder Holzspiepe stecken.\n Den Kohlsalat mit den Kokos-Tofu-Spießen und etwas Sesam garniert servieren."
   }
 ]
