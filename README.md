@@ -1,68 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# cookyplan
 
-## Available Scripts
+cookyplan is a mealplan app with option to create your personal recipe collection
 
-In the project directory, you can run:
+#
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+cookyplan is my final project (capstone-project) of my 3-month web development bootcamp at neuefische. 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+My app is designed to alleviate your daily struggle on deciding what to eat by providing an easy to use mealplan and a collection of all your favorite recipes - all in one place.
 
-### `npm test`
+The app can be used on desktop and mobile devices. As of now it is most suitable for iPhones 6/7/8.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In the project directory you can run:
+  
+- `npm install` to install all npm dependencies
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- `npm start`: to run the app in development mode
+  
+- visit http://localhost:3000 to view the app in the browser
+  
+- `npm run storybook` to run Storybook
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `npm test` to run React Testing Library & Jest
 
-### `npm run eject`
+- `npx cypress open` to run Cypress
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- the app is automatically deployed by vercel. You can visit https://capstone-project-psi.vercel.app/ to see the current deployment.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Visuals
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<img width="110" alt="mealplan-page" src="https://user-images.githubusercontent.com/37314329/91606994-74e69200-e973-11ea-9f27-0d3012a73071.png">
+&nbsp; &nbsp;
+<img width="110" alt="recipe-page" src="https://user-images.githubusercontent.com/37314329/91607055-8af45280-e973-11ea-802f-24cf6b50e1ae.png">
+&nbsp; &nbsp;
 
-## Learn More
+<img width="110" alt="recipe-page" src="https://user-images.githubusercontent.com/37314329/91607131-ac553e80-e973-11ea-9db4-d5e4e2738612.png">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Tech Stack
 
-### Code Splitting
+React / React-Router / React Hooks / Storybook / Styled-Components / PropTypes / Cypress / React Testing Library / Local Storage / uuid / Git Workflow / Vercel / Trello
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+#
 
-### Analyzing the Bundle Size
+## Roadmap
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- Internationalization with i18N
+- Create new recipe page and firebase setup
+- User login and authentication
+- Edit and delete recipes
+- Sort and filter recipes
+- Drag'n'drop meals on mealplan
+- Pagination of recipes
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
