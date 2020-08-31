@@ -2,8 +2,6 @@
 
 cookyplan is a mealplan app with option to create your personal recipe collection
 
-#
-
 ## Description
 
 cookyplan is my final project (capstone-project) of my 3-month web development bootcamp at neuefische.
@@ -11,8 +9,6 @@ cookyplan is my final project (capstone-project) of my 3-month web development b
 My app is designed to alleviate your daily struggle on deciding what to eat by providing an easy to use mealplan and a collection of all your favorite recipes - all in one place.
 
 The app can be used on desktop and mobile devices. As of now it is most suitable for iPhones 6/7/8.
-
-#
 
 ## Installation
 
@@ -30,8 +26,6 @@ In the project directory you can run:
 
 - the app is automatically deployed by vercel. You can visit https://capstone-project-psi.vercel.app/ to see the current deployment.
 
-#
-
 ## Visuals
 
 <img width="110" alt="mealplan-page" src="https://user-images.githubusercontent.com/37314329/91606994-74e69200-e973-11ea-9f27-0d3012a73071.png">
@@ -42,13 +36,9 @@ In the project directory you can run:
 
 <img width="110" alt="recipe-page" src="https://user-images.githubusercontent.com/37314329/91607131-ac553e80-e973-11ea-9db4-d5e4e2738612.png">
 
-#
-
 ## Tech Stack
 
 React / React-Router / React Hooks / Storybook / Styled-Components / PropTypes / Cypress / React Testing Library / Local Storage / uuid / Git Workflow / Vercel / Trello
-
-#
 
 ## Roadmap
 
