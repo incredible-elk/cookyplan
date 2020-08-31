@@ -275,12 +275,12 @@
     "title": "Kohlsalat mit Kokos-Tofu-Spießen",
     "details": [
       {
-        "comment": "",
+        "comment": "Hauptgericht",
         "prepTime": "",
         "cookTime": "",
-        "totalTime": "",
-        "Servings": "",
-        "Inspiration": ""
+        "totalTime": "~ 30 Minuten",
+        "Servings": "2-3",
+        "Inspiration": "etepetete"
       }
     ],
     "ingredients": [
@@ -303,5 +303,72 @@
       "Pfeffer"
     ],
     "method": "Den Weiß- und Rotkohl mit einem Hobel in feine Streifen hobeln, die Lauchzwiebeln in feine Ringe schneiden und die Mango in schmale Streifen schneiden.\n Das Dressing aus Sesamöl, Sojasauce, Honig, Salz und Pfeffer anrühren und mit den Kohl, den Lauchzwiebeln und der Mango vermengen. Den Koriander un die Minze hacken und ebenfalls unterrühren. Für ca. 20 Minuten ziehen lassen.\n Während der Salat zieht, den Tofu mit einem Küchentuch von allen Seiten trocken tupfen und in ca. 2x2cm große und 1cm dicke Rechtecke schneiden. Das Mehl, die Kokosflocken und die Kokosmilch auf je einen Teller geben.\n Nun mit den Händen jeden Tofuwürfel erst im Mehl und anschließend in der Kokosmilch und den Kokosflocken wäzlen, bis sie rundum bedeckt sind.\n Nun das Kokosöl in einer Pfanne erhitzen und die panierten Tofuwürfel darin goldbraun anbraten. Optional zum Servieren auf Schaschlikspieße oder Holzspiepe stecken.\n Den Kohlsalat mit den Kokos-Tofu-Spießen und etwas Sesam garniert servieren."
+  },
+
+  {
+    "id": "12",
+    "title": "Gemüselasagne mit Aubergine und Zuccini",
+    "details": [
+      {
+        "comment": "Hauptgericht",
+        "prepTime": "",
+        "cookTime": "",
+        "totalTime": "~ 1 Stunde 40 Minuten",
+        "Servings": "2-3",
+        "Inspiration": "etepetete"
+      }
+    ],
+    "ingredients": [
+      "1 Zwiebel",
+      "2 Knoblauchzehen",
+      "1 Zuccini",
+      "1 Aubergine",
+      "2 Tomaten",
+      "1 TL Paprika",
+      "1 TL Kreuzkümmel",
+      "2 TL Tomatenmark",
+      "1 TL Oregano",
+      "400g stückige Tomaten",
+      "150g grüne Linsen",
+      "ca. 10 Lasagneplatten",
+      "500ml (Pflanzen-)Milch",
+      "5 TL Hefeflocken",
+      "1 EL Stärke",
+      "1 TL Dijon Senf",
+      "Olivenöl",
+      "Salz und Pfeffer",
+      "Optional: Mozzarella"
+    ],
+    "method": "Etwas Olivenöl in einem großen Topf erhitzen.\n Zwiebel und Knoblauch fein hacken und darin anschwitzen.\n Anschließend Paprikapulver, Kreuzkümmel und Tomatenmark einrühren und alles für ca. 3 Minuten braten.\n Übriges Gemüse gut waschen, in ca. 1 cm große Würfel schneiden und mit Linsen in der Pfanne anbraten.\n Nach einigen Minuten mit gestückelten Tomaten unc ca. 200ml Wasser ablöschen, Oregano und etwas Salz und Pfeffer hinzugeben und für ca. 30 Minuten köcheln lassen.\n Währenddessen die weiße Sauce vorbereiten.\n Hierfür ca. 450ml (Pflanzen-)Milch mit Hefeflocken und Senf vermengt in einem weiteren Topf erhitzen.\n Anschließend Stärke mit der übrigen (Pflanzen-)Milch vermengen und alles in die Sauce einrühren.\n Für ca. 20 Min. unter geringer Wärmezufuhr und gelegentlichem Umrühren eindicken lassen.\n Den Ofen nun auf 180°C Umluft vorheizen.\n Ca. 3 EL Tomatensauce auf dem Boden einer ca. 25x25 große Backform ausstreichen.\n Eine Lage Lasagneplatten darauflegen. Anschließend 3 EL der weißen Sauce darauf ausstreichen, eine weitere Lage Lasagneplatten daraufschichten.\n Abwechselnd mit der roten und weißen Sauce fortfahren, bis alle Lasagneplatten aufgebraucht sind.\n Mit einer Lage roter Sauce beenden und optional mit gehacktem Mozzarella bestreuen.\n Für ca. 45 Min. im Ofen backen."
+  },
+
+  {
+    "id": "13",
+    "title": "Geschmorter Weißkohl",
+    "details": [
+      {
+        "comment": "Beilage",
+        "prepTime": "20 Minuten",
+        "cookTime": "1 Stunde",
+        "totalTime": "1 Stunde 20 Minuten",
+        "Servings": "4",
+        "Inspiration": "chefkoch"
+      }
+    ],
+    "ingredients": [
+      "1 1/2 kg Weißkohl",
+      "1 große Zwiebel",
+      "5 kleine Cherrytomaten",
+      "1 Würfel Brühe",
+      "1 EL Tomatenmark",
+      "3 Prisen Zucker - alternativ: Agavensirup",
+      "etwas Kümmel",
+      "etwas Butterschmalz",
+      "Salz",
+      "Pfeffer",
+      "Wasser",
+      "Optional: Saucenbinder, dunkel"
+    ],
+    "method": "Den Weißkohl in nicht zu kleine Stücke schneiden.\n Die Zwiebel pellen und würfeln.\n Die Tomaten halbieren.\n In einer Schmorpfanne mit hohem Rand und passenden Deckel etwas Butterschmalz erhitzen und den Weißkohl darin portionsweiße anbraten, bis er Bratspuren zeigt.\n Jede Portion etwas salzen und beiseitestellen, bis der gesamte Weißkohl angebraten ist.\n Wenn die letzte Portion Kohl angebräunt ist, diese ebenfalls aus der Pfanne nehmen.\n Erneut etwas Butterschmalz erhitze und die Zwiebeln mit etwas Zucker (oder Agavensirup) darin anbraten.\n Tomatenmark dazugeben und kurz mitrösten.\n Die Tomaten dazugeben und kurz mit andünsten.\n Den Kümmel leicht hacken und mit dem gesamten Weißkohl zu den Zwiebeln in die Pfanne geben.\n Alles vermischen, noch einmal kurz braten und dann mit Wasser nur so hoch auffüllen, dass der Weißkohl nicht bedeckt ist.\n Den Würfel Brühe hinzufügen, salzen und pfeffern und zugedeckt rund 45 Minuten leise schmoren lassen.\n Wenn der Kohl weich ist, die Brühe ggf. mit Saucenbinder bis zur gewünschten Konsistenz binden.\n Am Ende nach Bedarf noch einmal salzen und pfeffern.\n Schmeckt sehr gut zu Kartoffelpüree.\n Hinweis: Die Tomaten sollen nur als Ansatz für eine schmackhafte Schmorsauce dienen.\n Es soll keine Tomatensauce werden."
   }
 ]
